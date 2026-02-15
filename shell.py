@@ -15,7 +15,8 @@ def main():
             break
 
         elif tokens[0] == "echo":
-            print(command[5:])
+             arg_proc = command[5:].replace("'" , "")
+             print(arg_proc)
 
         elif tokens[0] == "type":
             if len(tokens) < 2:
