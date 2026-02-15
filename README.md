@@ -6,15 +6,15 @@ This is a shell made from scratch entirely in python.
 1. Standard output: Each command line starts with a symbol "$ " to represent its initiation.
    For now there exists the following commands:
    
-      -exit
+      - exit
    
-      -echo
+      - echo
    
-      -type
+      - type
    
-      -pwd (print working directory)
+      - pwd (print working directory)
    
-      -cd (change directory)
+      - cd (change directory)
    
    Any commands except result in an error.
    
@@ -23,3 +23,6 @@ This is a shell made from scratch entirely in python.
 5. Type: Print the type of the argument.
 6. Pwd: Print the current working directory, communicating directly with the os.
 7. cd: Change the current directory.
+
+# Purpose
+A shell made with a High level language could be integrated with High level functionalities which we hope to achieve with this project.
