@@ -17,6 +17,7 @@ def main():
         elif tokens[0] == "echo":
             out_string = " ".join(tokens[1:])
             out_string.replace("\\","")
+
             if tokens[1][0] == "'" and "\\" in tokens[1]:
                 arg_proc = out_string.replace("'" , "")
                 print(arg_proc)
