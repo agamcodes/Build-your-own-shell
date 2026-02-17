@@ -15,11 +15,13 @@ def main():
             break
 
         elif tokens[0] == "echo":
-            if tokens[1][0] == "'":
-                arg_proc = command[5:].replace("'" , "")
+            out_string = " ".join(tokens[1:])
+            out_string.replace("\\","")
+            if tokens[1][0] == "'" and "\\" in tokens[1]:
+                arg_proc = out_string.replace("'" , "")
                 print(arg_proc)
             else:
-                print(" ".join(tokens[1:]))
+                print(out_string)
 
         elif tokens[0] == "type":
             if len(tokens) < 2:
