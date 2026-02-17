@@ -1,5 +1,5 @@
 # Build your own shell
-## This is a building exercise I conducted with the help of **codecrafters**. 
+This is a building exercise I conducted with the help of **codecrafters**. 
 
 This is a shell made from scratch entirely in python. 
 # Current Features
@@ -26,3 +26,5 @@ This is a shell made from scratch entirely in python.
 
 # Purpose
 A shell made with a High level language could be integrated with High level functionalities which we hope to achieve with this project.
+
+Building a shell from scratch is a really good opportunity to learn how a computer actually runs software.
